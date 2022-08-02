@@ -1,0 +1,12 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* cor de fundo da página */
+    background: linear-gradient(
+      90deg,
+      rgb(196, 176, 66) 0%,
+      rgb(0, 255, 34) 100%
+    );
+  }
+  

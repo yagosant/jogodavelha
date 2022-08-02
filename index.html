@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title> Jogo da Velha</title>
+  </head>
+  <body>
+    <div class="board" data-board><!-- classe container -->
+      <div class="cell" data-cell></div><!-- .cell*9 -->
+      <div class="cell" data-cell></div><!-- o data-cell é o atributo que vai ser usado no js -->
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" data-winning-message>
+      <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+      <button class="winning-message-button" data-restart-button>
+        Começar de novo!
+      </button>
+    </div>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>

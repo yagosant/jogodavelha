@@ -1,0 +1,7 @@
+/* fazendo a parte de reset.css */
+* {
+    box-sizing: border-box; /* impede que a margin e o padding influencie na pagina */
+    margin: 0;
+    padding: 0;
+  }
+  
